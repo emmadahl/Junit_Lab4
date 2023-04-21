@@ -13,7 +13,7 @@ public class CalculatorTests {
     @DisplayName("Should give expected result when adding two numbers")
     public void addTwoNumbers() {
         int result = calculator.add(2, 3);
-        Assertions.assertEquals(7, result);
+        Assertions.assertEquals(5, result);
     }
 
     @Test
